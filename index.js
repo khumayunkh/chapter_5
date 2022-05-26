@@ -99,7 +99,6 @@ console.log('hello')
 // }
 
 let a = 4
-let b = 0
 // try{
 //     if(a>5){
 //         console.log('ok')
@@ -108,11 +107,28 @@ let b = 0
 //     console.log(er)
 // }
 
-for(let i=0; i<=a; i++){
-    b += i
-}
+// for(let i=0; i<=a; i++){
+//     b += i
+// }
 
-console.log(b)
+// while(a>1){
+//     b *= a
+//     a--
+// }
+
+// for(let i=1; i<=a;i++){
+//     b *=i
+// }
+// console.log(b)
+
+try{
+    for(i=1; i>=a;i++){
+        b *=i
+    }
+    console.log(b)
+}catch{
+    console.log('some error')
+}
 
 // do{
 //     a++
