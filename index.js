@@ -57,27 +57,71 @@ console.log('hello')
 
 // sum(i,j)
 
-let data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let sum = 0 
-for(let element of data){
-    sum += element
+// let data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// let sum = 0 
+// for(let element of data){
+//     sum += element
+// }
+
+// let y = 8
+// let i
+// for(i=0; i<y; i++){
+//     if(i == 2){
+//         continue
+//     }
+//     console.log(sum += i) 
+//     // console.log(i)
+// }
+
+// for(i=0; i<y;i++){
+//     if(i==3){
+//         break
+//     }
+//     console.log(i) // 0, 1, 2
+// }
+
+// console.log(sum)
+
+// console.log(sum)
+// let element = 0
+// while(element<10){
+//     element++
+//     console.log(element)
+// }
+
+// let obj = {
+//     name: 'Humoyun',
+//     age: 19
+// }
+// for(b in obj){
+//     console.log(obj[b])
+//     obj.age+=1
+// }
+
+let a = 4
+let b = 0
+// try{
+//     if(a>5){
+//         console.log('ok')
+//     }
+// }catch(er){
+//     console.log(er)
+// }
+
+for(let i=0; i<=a; i++){
+    b += i
 }
 
-console.log(sum)
-let element = 0
-while(element<10){
-    element++
-    console.log(element)
-}
+console.log(b)
 
-let obj = {
-    name: 'Humoyun',
-    age: 19
-}
-for(b in obj){
-    console.log(obj[b])
-    obj.age+=1
-}
+// do{
+//     a++
+//     console.log(a) //5
+// }while(a<3){
+//     a--
+//     console.log(a) //4
+// }
+
 
 
 
