@@ -98,7 +98,7 @@ console.log('hello')
 //     obj.age+=1
 // }
 
-let a = 4
+// let a = 10
 // try{
 //     if(a>5){
 //         console.log('ok')
@@ -121,14 +121,63 @@ let a = 4
 // }
 // console.log(b)
 
-try{
-    for(i=1; i>=a;i++){
-        b *=i
+// try{
+//     for(i=1; i>=a;i++){
+//         b *=i
+//     }
+//     console.log(b)
+// }catch{
+//     console.log('some error')
+// }
+
+// for(let i=0; i<a;i++){
+//     if(i===5){
+//         continue;
+//     }
+//     if(i===7){
+//         break;
+//     }
+//     console.log(i)
+// }
+// let i=0
+// while(i<a){
+//     i++
+//     if(i===5){
+//         continue;
+//     }
+//     if(i===7){
+//         break;
+//     }
+//     console.log(i)
+// }
+
+function sum(a){
+    return function sum2(b){
+        return function sum3(c){
+            d = a+b+c
+            return console.log(d)
+        }
     }
-    console.log(b)
-}catch{
-    console.log('some error')
 }
+sum(2)(3)(4)
+let a = [2, 3, 4, 6, 5]
+let s = 0
+for(array of a){
+    s += array
+}
+
+console.log(s)
+let t = 1 
+for(let i=1; i<=s; i++){
+    t *= i
+}
+console.log(t)
+let j = 1
+while(s>1){
+    j*=s;
+    s--
+}
+console.log(j)
 
 // do{
 //     a++
